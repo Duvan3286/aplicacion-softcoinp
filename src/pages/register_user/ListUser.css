@@ -1,0 +1,53 @@
+.list-user-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.list-user-header {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.list-user-vertical {
+    margin-top: 20px;
+}
+
+.user-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.user-item p {
+    margin: 5px 0;
+}
+
+.action-buttons button {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.action-buttons button.delete {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+}
+
+.action-buttons button.update {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.link2 {
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    color: #27ae60;
+    cursor: pointer;
+}

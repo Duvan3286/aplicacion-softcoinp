@@ -1,0 +1,104 @@
+.mm-body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto; 
+}
+
+.mm-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #908d8d;
+    border-radius: 10px;
+    background-color: #2980B9;
+    color: #000000bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mm-column {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2980B9;;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.mm-sub-column {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.mm-form-group {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.mm-form-group input,
+.mm-form-group textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #908d8d;
+    border-radius: 10px;
+}
+
+.mm-form-group label {
+    font-weight: bold;
+}
+
+.mm-button,
+.mm-button-2,
+.mm-button-3,
+.mm-button-4,
+.mm-button-5 {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.mm-button-2 {
+    font-size: 18px;
+}
+
+.mm-button-3,
+.mm-button-4,
+.mm-button-5 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#reloj {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-group a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: underline;
+    background-color: #1f618d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}

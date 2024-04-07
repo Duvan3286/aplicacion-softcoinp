@@ -1,0 +1,7 @@
+{
+  "name": "softcoinp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
